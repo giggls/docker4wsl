@@ -70,8 +70,6 @@ Hierzu installiert man zunächst **WSL2** über folgende Schritte
    ```
 4. Dockerd im Hintergrund starten
 
-   (vorher gegebenenfalls noch Umgebungsvariablen HTTP_PROXY und HTTPS_PROXY setzen)
-
    ```
    start-stop-daemon --start -b --exec /usr/sbin/dockerd
    ```
